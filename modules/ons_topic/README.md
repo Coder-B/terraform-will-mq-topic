@@ -1,9 +1,4 @@
-# terraform-will-mq-topic
-
-This Terraform module will create a message topic for message queue.
-
-These types of resources are supported:
-- [alicloud_ons_topic](https://www.terraform.io/docs/providers/alicloud/r/ons_topic.html)
+# alicloud_ons_topic
 
 ## Inputs
 
