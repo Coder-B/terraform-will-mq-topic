@@ -11,15 +11,18 @@ you may run this demo below
 ```
 module "mq-topic" {
   source  = "Coder-B/mq-topic/will"
-  version = "0.0.2"
+  version = "1.0.0"
   instance_id = "${write an existed MQ instance id}"
   topic = "awesome-topic"
   message_type = 0
   remark = "this is an awesome topic"
-  access_key = "${write your access key here}"
-  secret_key = "${write your secret key here}"
 }
 ```
+**key settings**<br>
+Setting `access_key` and `secret_key` values through environment variables:
+
+    - ALICLOUD_ACCESS_KEY
+    - ALICLOUD_SECRET_KEY
 
 **Conditional creation**<br>
 This example supports using existing MQ instance to create MQ topic conditionally.
