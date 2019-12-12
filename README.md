@@ -11,7 +11,7 @@ you may run this demo below
 ```
 module "mq-topic" {
   source  = "Coder-B/mq-topic/will"
-  version = "0.0.1"
+  version = "0.0.2"
   instance_id = "${write an existed MQ instance id}"
   topic = "awesome-topic"
   message_type = 0
@@ -21,7 +21,7 @@ module "mq-topic" {
 }
 ```
 
-**Conditional creation**
+**Conditional creation**<br>
 This example supports using existing MQ instance to create MQ topic conditionally.
 
 ## Inputs
